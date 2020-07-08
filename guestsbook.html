@@ -1,0 +1,172 @@
+<!Doctype html> 
+<html>
+    <head> 
+	
+	   <title></title> 
+	   <link rel="stylesheet" type="text/css" href=""> 
+	   <style> 
+	   
+	       Body{
+	width: 650px;
+	background-color: black;
+} 
+
+:required{
+	
+	border-color: red;
+} 
+em {
+	color: red;
+} 
+.label{
+	width:38%; 
+	display: block; 
+	float:left; 
+	padding-left: 10px; 
+	font-weight: bold;
+
+	
+} 
+.cell,.name,.number,.email,.add,.str,.town,.pin,.sel{
+	
+	width: 20%; 
+	display: block; 
+	border: none;
+    border-bottom: 1px solid gold;	 
+	border-radius: 20px; 
+	padding-left: 10px; 
+	
+
+} 
+hr{
+	width: 250px;; 
+	float: left;
+}  
+.lab{
+	width: 100px; 
+	float:left; 
+	padding-left: 5px;
+}  
+button:hover{
+	background-color:yellow; 
+	border-radius:20px;
+	width: 100px;
+	
+} 
+fieldset{
+	background-color: transparent; 
+	border-radius: 70px; 
+	 background-image:url("thanks.jpg"); 
+
+} 
+.p{
+	border-bottom:1px solid grey;
+} 
+h2{
+	color:gold; 
+	float: center; 
+    font-family:Edwardian Script ITC; 
+	font-size: 30px; 
+	text-align: center;
+	background-color: gray; 
+	border-radius: 30px; 
+	margin-left: 70px; 
+	margin-right: 70px;
+} 
+
+legend{
+  text-align: center;
+  background-color: black; 
+  color: white;
+  border-radius: 20px; 
+  padding: 3px; 
+  padding-right: 5px;
+} 
+
+form{
+    position: absolute; 
+	left: +200px; 
+	
+} 
+
+a{
+ text-decoration: none;
+}
+	   
+	   </style>
+	
+	</head>
+
+         <body> 
+		 
+		    <form> 
+
+<fieldset> 
+<legend>Guest-Book</legend>
+<h2>Chris Morris and Berverly Mogarn</h2> 
+<p><i><em class="p"> Required info is marked with a star</em> </i><em>*</em></p>
+<label for="nmae" class="label"> Name <em>*</em></label> 
+<input type="text" Placeholder="Name" class="name" required> 
+<br/>  
+
+<label for="pin" class="label"> Unique Pin <em>*</em></label> 
+<input type="password" placeholder="Unique Pin" class="pin" required>  
+
+<br/>
+<hr><label class="lab">Personal info</label><hr> 
+<br/>
+<label>Gender</label> 
+<label >Male</label> 
+<input type="Radio" >
+<label for="female">Female</label> 
+<input type="radio" value="female" class="female">
+<br/>
+<hr><label class="lab">Contact info</label><hr>
+<br/>
+<label class="label">Country Code</label> 
+<select class="sel"> 
+ 
+<option>+27</option> 
+<option>+26</option> 
+<option>+25</option>
+
+</select> 
+<br/>
+<label for="cell" class="label">Contact</label> 
+<input type="Numbers" placeholder="+.." class="cell"> 
+<br/>
+<label for="email" class="label">Email <em>*</em></label>
+<input type="Email" placeholder="Rector@Gmail.com" class="email" required>
+<br/>
+
+<hr><label class="lab">Address</label><hr>  
+<br/>
+<label for="add" class="label">address <em>*</em></label> 
+<input type="Text" placeholder="address" class="add" required> 
+<br/>
+<label for="str" class="label">Street <em>*</em></label> 
+<input type="text" placeholder="eg Rector street" class="str" required> 
+<br/>
+<label for="town" class="label">Town <em>*</em></label> 
+<input type="town" placeholder="Town" class="town" required>
+
+
+
+</fieldset> 
+
+<fieldset>
+<nav> 
+
+<button><a href="Main.html">Submit</a></button>
+<a href="">Forgot Unique pin</a>
+
+</nav> 
+</fieldset>
+
+
+</form>
+
+		 
+         </body>
+
+</html>

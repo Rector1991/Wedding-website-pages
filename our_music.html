@@ -1,0 +1,125 @@
+<!Doctype html> 
+<html>
+    <head> 
+	
+	   <title></title> 
+	   <link rel="stylesheet" type="text/css" href=""> 
+	   
+	   <style>  
+	   
+	   body{
+	     background-image: url("DJ.jpg"); 
+         background-size: cover; 
+		 
+	   }
+.container:hover .overlay {
+  width: 100%;
+  
+} 
+
+.overlay {
+  position: absolute;
+  
+  left: 0;
+  right: 0;
+  margin-top: 2px;
+
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+} 
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 20px; 
+  border: 2px solid pink; 
+  text-align: center; 
+  color: white;
+  width: 500px;
+  
+} 
+		
+.container{
+ position: absolute; 
+ left: 15%; 
+ border: none; 
+ border-radius: 20px; 
+ border-bottom: 2px solid white; 
+ border-left: 2px solid white; 
+ border-right: 2px solid white;
+ color: white;
+ width: 700px; 
+ height: 650px; 
+ text-align: center;
+ top: 15%;
+ 
+}	 
+
+
+
+label{
+  width: 100px;  
+  float: left;
+} 
+
+h2{
+  font-size: 40px;
+} 
+
+h1{
+ text-decoration: underline; 
+ border-radius: 20px; 
+ border-bottom: 1px solid pink;
+} 
+
+button{
+ border-radius: 20px; 
+ color: white; 
+ background: transparent;
+ font-weight: bold;
+}	
+
+button:hover{
+  background-color: deeppink; 
+  border: 2px solid white; 
+  color: black; 
+  
+}
+	   </style>
+	
+	</head>
+
+         <body> 
+		  <div class="container">
+		  <h1>Chris Morris and Berverly Mogarn</h1>
+            <h2>Our Music</h2>
+             <div class="overlay">
+                <div class="text"> 
+				   <ul> 
+				     <li><label>True Love</label><audio src="song.mp3" controls></li> 
+					 <li><label>Me and you</label><audio src="song.mp3" controls></li>  
+					 <li><label>Her Heart</label><audio src="song.mp3" controls></li>  
+					 <li><label>Thandolwethu</label><audio src="song.mp3" controls></li> 
+					 <li> 
+					 
+				   <a href="Main.html"> <button>Home page</button></a> 
+				   <a href="our_story.html"><button><em> < </em> previous page</button></a> 
+				   <a href="wedding_event.html"><button>next page<em> > </em></button></a> 
+				   
+				   </li>
+				   <ul>
+				</div>
+            </div>
+          </div>   
+         </body>
+
+</html>
